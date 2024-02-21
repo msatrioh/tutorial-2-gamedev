@@ -16,3 +16,4 @@ Pada scene MainLevel, coba manipulasi atribut Position, Rotation, dan Scale mili
 Pada scene MainLevel, perhatikan nilai atribut Position node PlatformBlue, StonePlatform, dan StonePlatform2. Mengapa nilai Position node StonePlatform dan StonePlatform2 tidak sesuai dengan posisinya di dalam scene (menurut Inspector) namun visualisasinya berada di posisi yang tepat?
 > Posisi node stonePlatform dan stonePlatform2 adalah y=0. Hal ini dikarenakan posisi kedua node tersebut adalah relatif terhadap posisi node platform blue, karena merupakan child dari node tersebut. Sedangkan, node platform blue merupakan child dari main scene, sama seperti blue ship, sehingga posisinya absolut.
 
+godot 3.5
